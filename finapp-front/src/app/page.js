@@ -5,7 +5,7 @@ export default function Home() {
     <div className="mainCointainer w-screen h-screen flex flex-col items-center justify-center">
       <div className="loginContainer w-2/6 h-4/6 bg-white flex flex-col items-center justify-center">
         <div className="logo text-center flex items-center flex-col">
-          <Image className="" src="/images/logo.png" width={120} height={120} alt="logo"/>
+        <Image src='/images/newlogo.png' width={100} height={100} alt='Logo'/>
           <h1 className="font-bold text-2xl mt-4">FinApp.com</h1>
           <p className='text-xs'>Solucoes financeiras</p>
         </div>
